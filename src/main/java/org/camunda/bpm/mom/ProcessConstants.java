@@ -1,4 +1,4 @@
-/**package org.camunda.bpm.mom;
+package org.camunda.bpm.mom;
 
 public class ProcessConstants {
 
@@ -14,6 +14,3 @@ public class ProcessConstants {
 
   
 }
-
-
-*/
