@@ -1,4 +1,4 @@
-package org.camunda.bpm.mom.rest;
+/**package org.camunda.bpm.mom.rest;
 
 import org.camunda.bpm.mom.ProcessConstants;
 
@@ -26,6 +26,8 @@ public class taskingAdaptor {
    * we need a method returning the {@link ProcessInstance} to allow for easier tests,
    * that's why I separated the REST method (without return) from the actual implementaion (with return value)
    */
+
+   /**
   public ProcessInstance placeTask(String description, int priority, String poc) {
     return camunda.getRuntimeService().startProcessInstanceByKey(//
         ProcessConstants.PROCESS_KEY_task, //
@@ -37,3 +39,5 @@ public class taskingAdaptor {
     );
   }
 }
+
+*/
