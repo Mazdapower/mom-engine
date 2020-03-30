@@ -1,8 +1,0 @@
-camunda.bpm:
-  admin-user:
-    id: drum
-    password: drumknot
-    firstName: Drum
-    lastName: Knot
-  filter:
-    create: All tasks
